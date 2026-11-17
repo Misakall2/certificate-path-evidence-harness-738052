@@ -1,0 +1,14 @@
+_gitignore/
+
+# Local credentials and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*credentials*
+*.token
+*.secret
